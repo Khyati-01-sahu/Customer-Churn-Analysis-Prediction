@@ -4,35 +4,41 @@ Project Overview
 Customer churn refers to customers discontinuing a company’s service. Retaining existing customers is more cost-effective than acquiring new ones. This project analyzes customer behavior and builds a machine learning model to predict churn, enabling proactive customer retention strategies
 
 Objectives
+<br>
 Perform exploratory data analysis (EDA) to understand churn patterns
 Identify key factors influencing customer churn
 Build and evaluate a churn prediction model
 Generate business insights to reduce churn
 
 Dataset
+<br>
 Source: Telco Customer Churn Dataset
 Records: ~7,000 customers
 Target Variable: Churn (Yes / No)
 
 Key features include:
+<br>
 Customer demographics
 Service usage details
 Contract and billing information
 Monthly and total charges
 
 Technologies Used
+<br>
 Python
 Pandas, NumPy
 Matplotlib, Seaborn
 Scikit-learn
 
 Exploratory Data Analysis
+<br>
 Key insights from EDA:
 Customers with shorter tenure are more likely to churn
 Month-to-month contracts show the highest churn rates
 Higher monthly charges increase churn probability
 
 Model Building
+<br>
 Model Used: Logistic Regression
 Data preprocessing:
 Missing value treatment
@@ -41,6 +47,7 @@ Feature scaling
 Train-test split: 80-20
 
 Model Evaluation
+<br>
 Accuracy Score
 Confusion Matrix
 Precision, Recall, F1-score
