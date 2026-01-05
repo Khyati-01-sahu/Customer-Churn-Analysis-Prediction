@@ -12,48 +12,49 @@ Generate business insights to reduce churn
 
 Dataset
 <br>
-Source: Telco Customer Churn Dataset
-Records: ~7,000 customers
-Target Variable: Churn (Yes / No)
+o Source: Telco Customer Churn Dataset
+o Records: ~7,000 customers
+o Target Variable: Churn (Yes / No)
 
 Key features include:
 <br>
-Customer demographics
-Service usage details
-Contract and billing information
-Monthly and total charges
+o Customer demographics
+o Service usage details
+o Contract and billing information
+o Monthly and total charges
 
 Technologies Used
 <br>
-Python
-Pandas, NumPy
-Matplotlib, Seaborn
-Scikit-learn
+o Python
+o Pandas, NumPy
+o Matplotlib, Seaborn
+o Scikit-learn
 
 Exploratory Data Analysis
 <br>
 Key insights from EDA:
-Customers with shorter tenure are more likely to churn
-Month-to-month contracts show the highest churn rates
-Higher monthly charges increase churn probability
+o Customers with shorter tenure are more likely to churn
+o Month-to-month contracts show the highest churn rates
+o Higher monthly charges increase churn probability
 
 Model Building
 <br>
-Model Used: Logistic Regression
+Model Used: 
+o Logistic Regression
 Data preprocessing:
-Missing value treatment
-Categorical encoding
-Feature scaling
+o Missing value treatment
+o Categorical encoding
+o Feature scaling
 Train-test split: 80-20
 
 Model Evaluation
 <br>
-Accuracy Score
-Confusion Matrix
-Precision, Recall, F1-score
-Recall was prioritized to correctly identify churn-prone customers.
+o Accuracy Score
+o Confusion Matrix
+o Precision, Recall, F1-score
+o Recall was prioritized to correctly identify churn-prone customers.
 
 Key Business Insights
-Long-term contracts reduce churn risk
-High monthly charges increase churn probability
-Tenure is a strong negative predictor of churn
+o Long-term contracts reduce churn risk
+o High monthly charges increase churn probability
+o Tenure is a strong negative predictor of churn
